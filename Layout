@@ -1,0 +1,3 @@
+new ebs vol > if gp2 > make gp3
+
+use cloudwatch > events > rule >  to keep track on any new ebs vol creation > trigger custom python lambda code > change ebs type to gp3
